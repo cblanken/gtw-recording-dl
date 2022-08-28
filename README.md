@@ -3,12 +3,12 @@ Given a GoToWebinar recording download link, POST registration info from creds.j
 the embedded CDN link for a direct download using wget.
 
 ## Usage
-```shell
+```console
 $ python dl.py
 Usage: python dl.py <GoToWebinar_recording_link> <creds.json> <output_file>
 ```
-Here is an download partially redacted.
-```shell
+Here is partially redacted example.
+```console
 $ python dl.py https://register.gotowebinar.com/recording/***************0912 creds.json video_1
 Recording ID: ***************0912
 Registration info: {'firstName': '********', 'lastName': '********', 'email': '********'}
